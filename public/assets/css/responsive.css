@@ -1,0 +1,715 @@
+@media all and (min-width: 1800px){
+	.banner-image{
+		max-width: 930px;
+	}
+}
+@media all and (min-width: 1600px) {
+	.story-area .container-fluid {
+		max-width: 1520px;
+	}
+	.story-single-content {
+		height: 320px;
+	}
+}
+@media all and (max-width: 1500px) {
+}
+
+@media all and (max-width: 1199px) {
+	.gaming-left-content {
+		padding-left: 20px;
+	}
+	.roadmap-single-item:first-child h2::before {
+		width: 253px;
+		height: 147px;
+	}
+	.roadmap-single-item:nth-child(2) h2::before {
+		width: 195px;
+		height: 80px;
+	}
+	.roadmap-single-item:nth-child(3) h2::before {
+		width: 313px;
+		height: 122px;
+	}
+	.roadmap-single-item:nth-child(4) h2::before {
+		width: 245px;
+		height: 143px;
+		top: -104px;
+	}
+	.roadmap-single-item:nth-child(5) h2::before {
+		width: 126px;
+		height: 73px;
+		top: -34px;
+	}
+	.roadmap-single-item:nth-child(6) h2::before {
+		width: 270px;
+	}
+	.roadmap-area::before {
+		bottom: 30px;
+	}
+	.roadmap-area::after {
+		bottom: 30px;
+	}
+}
+@media all and (min-width:992px) and (max-width: 1199px){
+	
+}
+@media all and (max-width: 991px) {
+	.header-menu-area {
+		display: none;
+	}
+	.header-social-icon {
+		display: none;
+	}
+	.bar-area {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: end;
+		    -ms-flex-pack: end;
+		        justify-content: flex-end;
+	}
+	.bar-area img {
+		width: 27px;
+		height: 18px;
+		cursor: pointer;
+	}
+	.mobile-menu-area {
+		background: #FF14ED;
+		padding: 30px 0;
+		position: fixed;
+		width: 50%;
+		height: 100%;
+		top: 0;
+		z-index: 999;
+		right: -100%;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+		display: block;
+		overflow-y: scroll;
+	}
+	.offcanvas {
+		right: 0;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+	}
+	.header-area .container-fluid {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.menubar-area ul {
+		display: block;
+		text-align:center;
+		margin-left:0;
+		padding:0 20px;
+	}
+	.menubar-area ul li {
+		border-bottom: 1px solid #FFF;
+		padding-right:0;
+	}
+	.menubar-area ul li a {
+		font-size: 15px;
+		padding-bottom: 20px;
+		display: block;
+		padding-top: 20px;
+	}
+	.header-social-icon ul li {
+		margin: 0 10px;
+	}
+	.mobile-menu-area .header-social-icon {
+		display: block !important;
+		margin-top: 40px;
+	}
+	.header-social-icon ul {
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.close-area {
+		width: 25px;
+		height: 25px;
+		cursor: pointer;
+	}
+	.close {
+		height: 25px;
+		width: 2px;
+		margin-left: 12px;
+		background-color: #FFF;
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		    transform: rotate(45deg);
+		Z-index: 1;
+		opacity: 1;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+		position: relative;
+		left: -11px;
+	}
+	.close-icon {
+		height: 25px;
+		width: 2px;
+		background-color: #FFF;
+		-webkit-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		    transform: rotate(90deg);
+		Z-index: 2;
+	}
+	.icon-area {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: end;
+		    -ms-flex-pack: end;
+		        justify-content: flex-end;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	.gaming-left-content {
+		max-width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.roadmap-virtual-image img {
+		max-width: 390px;
+		height: 298px;
+		width: 100%;
+	}
+	.roadmap-single-item p {
+		font-size: 18px;
+		max-width: 190px;
+	}
+	.roadmap-single-item h2 {
+		font-size: 55px;
+	}
+	.roadmap-single-item:first-child h2::before {
+		width: 183px;
+		height: 138px;
+		top: 33px;
+	}
+	.roadmap-single-item:nth-child(2) {
+		top: 306px;
+	}
+	.roadmap-single-item:nth-child(2) h2::before {
+		width: 133px;
+		height: 61px;
+		top: -27px;
+	}
+	.roadmap-single-item:nth-child(3) {
+		top: 490px;
+	}
+	.roadmap-single-item:nth-child(3) h2::before {
+		width: 215px;
+		height: 104px;
+		top: -70px;
+		left: 77px;
+	}
+	.roadmap-single-item:nth-child(4) {
+		top: 490px;
+	}
+	.roadmap-single-item:nth-child(4) h2::before {
+		width: 215px;
+		height: 101px;
+		top: -68px;
+	}
+	.roadmap-single-item:nth-child(5) {
+		top: 306px;
+	}
+	.roadmap-single-item:nth-child(5) h2::before {
+		width: 85px;
+		height: 55px;
+		top: -21px;
+	}
+	.roadmap-single-item:nth-child(6) h2::before {
+		width: 163px;
+		height: 134px;
+		top: 33px;
+	}
+	.minting-area .container-area {
+		padding: 0 20px;
+	}
+	.minting-form-area {
+		max-width: 100%;
+		margin-top: 30px;
+	}
+	.story-content::after {
+		width: 112%;
+		background: url(../images/banner/story-line1.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		top: 0;
+		left: -6%;
+		right: 0;
+		margin: auto;
+	}
+	.faq-area::before {
+		display: none;
+	}
+	.faq-area::after {
+		display: none;
+	}
+	.card-body p {
+		font-size: 20px;
+	}
+	.footer-left-content p {
+		max-width: 100%;
+	}
+	.section-heading h2 {
+		font-size: 51px;
+	}
+	.banner-main-area::after {
+		display: none;
+	}
+	.comming-soon-title h2 {
+		font-size: 55px;
+	}
+}
+@media all and (max-width: 767px) {
+	.banner-counter h2 {
+		display: none;
+	}
+	.mobile-menu-area {
+		display: block;
+	}
+	.banner-button {
+		display: block;
+	}
+	.section-heading h2 {
+		font-size: 35px;
+	}
+	.story-single-item:not(:first-child) {
+		margin-left: 0;
+	}
+	.story-single-content {
+		height: 190px;
+	}
+	.story-single-content h2 {
+		font-size: 55px;
+	}
+	.story-single-item {
+		width: 46%;
+		margin: 15px 0;
+	}
+	.story-single-item:last-child {
+		display: none;
+	}
+	.tring-image {
+		margin-top: -49px;
+	}
+	.vertula-image {
+		max-width: 230px;
+		margin-top: -83px;
+	}
+	.story-area::after {
+		height:90px;
+	}
+	.story-all-item {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+	}
+	.container-area {
+		padding: 0 15px;
+	}
+	.gaming-left-content h2 {
+		font-size: 32px;
+	}
+	.gaming-left-content h4 {
+		font-size: 25px;
+		text-align: center;
+	}
+	.gaming-left-content p {
+		text-align: center;
+		width:90%;
+		margin:auto;
+	}
+	.gaming-image {
+		display: none;
+	}
+	.mobile-gaming-image.gaming-image {
+		display: block;
+		margin:20px 0;
+	}
+	.roadmap-single-item {
+		position: inherit !important;
+	}
+	.roadmap-virtual-image img {
+		max-width: 363px;
+		height: 276px;
+		width: 100%;
+	}
+	.roadmap-all-item {
+		max-width: 363px;
+		margin: auto;
+	}
+	.roadmap-virtual-image::after {
+		position: absolute;
+		content: "";
+		width: 50px;
+		height: 1176px;
+		left: 20px;
+		top: 190px;
+		background: url(../images/banner/mobile-line.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+	}
+	.roadmap-virtual-image {
+		padding: 0 0 60px 0;
+		margin-top: 40px !important;
+		max-width: 363px;
+		margin: auto;
+	}
+	.roadmap-single-item{
+		text-align: left !important;
+		padding-left: 106px;
+		padding-bottom:90px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
+	}
+	.roadmap-single-item h2::after{
+		left: -30px !important;
+		right:inherit !important;
+	}
+	.roadmap-single-item p {
+		max-width: 100%;
+		padding-left: 10px;
+		font-size: 20px;
+		padding-top:6px;
+	}
+	.roadmap-single-item h2::before {
+		position: absolute;
+		content: "";
+		width: 45px !important;
+		height: 32px !important;
+		background: url(../images/banner/mobile-line1.png) !important;
+		background-size: 100% 100% !important;
+		background-position: 0 0 !important;
+		background-repeat: no-repeat !important;
+		top: 35px !important;
+		left: -85px !important;
+	}
+	.man-image {
+		padding-right: 0;
+	}
+	.right-image {
+		padding-left: 0;
+	}
+	.comming-soon-title {
+		margin-left: 60px;
+	}
+	.comming-soon-title h2 {
+		font-size: 26px;
+		height: 188px;
+		max-width: 475px;
+		margin-left: 75px;
+		padding:40px 0 65px 0;
+	}
+	.main-roadmap-area::after {
+		width: 28px;
+		height: 45px;
+	}
+	.main-roadmap-area::before {
+		width: 22px;
+		height: 22px;
+	}
+	.roadmap-area::after {
+		width: 22px;
+		height: 22px;
+	}
+	.roadmap-area::before {
+		width: 28px;
+		height: 45px;
+	}
+	.card h2 button img {
+		display: none;
+	}
+	.card-body p {
+		padding-left: 32px;
+		padding-right: 0;
+	}
+	.footer-top-content ul {
+		display: none;
+	}
+	.footer-top-content {
+		display: block;
+		text-align: center;
+	}
+	.footer-left-content p {
+		text-align: center;
+	}
+	.mobile-social.footer-top-content ul {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		margin: 30px 0;
+	}
+	.footer-top-content ul li {
+		margin: 0 10px;
+	}
+	.arrow-up-area i {
+		position: inherit;
+		margin: auto;
+	}
+	.copyright-content p {
+		text-align: center;
+		padding-top: 20px;
+	}
+	.story-single-content {
+		margin: 10px;
+	}
+	.story-single-content::after{
+		display:none;
+	}
+	.story-single-item:first-child .story-single-content::after,.story-single-item:nth-child(2) .story-single-content::after  {
+		width: 60px;
+		height: 60px;
+		right: 0;
+		bottom: -56px;
+		margin: auto;
+		left: 0;
+		top:inherit;
+		display:block;
+	}
+	.gaming-left-content {
+		padding-left: 0;
+	}
+	.container {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.container-fluid {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.story-content {
+		padding-bottom: 40px;
+	}
+	.gaming-main-area::after {
+		left: inherit;
+		width: 151px;
+		height: 271px;
+		right: -15px;
+	}
+	.gaming-main-area::before {
+		left: -50px;
+		bottom: 0;
+	}
+	.minting-image img {
+		display: none;
+	}
+	.mobile-minting-image {
+		display: block !important;
+	}
+	.minting-area::after {
+		width: 140px;
+		height: 140px;
+	}
+	.mobile-minting-image {
+		display: block;
+	}
+	.content-item {
+		display: none;
+	}
+	.roadmap-area {
+		padding: 90px 0 0 0;
+		overflow: hidden;
+	}
+	.mobile-content.content-item {
+		display: block;
+		margin-top:0;
+		margin-bottom:90px;
+	}
+	.faq-area::before{
+		display:block;
+	}
+	.faq-area::before {
+		position: absolute;
+		content: "";
+		width: 240px;
+		height: 440px;
+		background: url(../images/bg/faq-right.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		top: inherit;
+		right: 0px;
+		bottom: -40px;
+	}
+	.faq-area {
+		padding: 90px 0 140px 0;
+	}
+	.question-content {
+		text-align: center;
+		margin-top: 120px;
+	}
+	.partnership-heading-bg h2 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.welcome-metaverse-content {
+		position: inherit;
+		margin-top: 30px;
+	}
+	.welcome-metaverse-content h2 {
+		font-size: 30px;
+		max-width: 240px;
+	}
+	.enter-button {
+		margin-top: 15px;
+	}
+	.button-item a {
+		font-size: 16px;
+	}
+	.welcome-sub-content p {
+		font-size: 23px;
+	}
+	.welcome-metaverse-content-area::after {
+		width: 55px;
+		height: 95px;
+	}
+	.welcome-area {
+		padding: 0 0 90px 0;
+	}
+	.welcome-content img {
+		width: 100%;
+		display: none;
+	}
+	.mobile-image {
+		display: block;
+	}
+	.welcome-area::after {
+		display: none;
+	}
+	.mobile-image img {
+		width: 100%;
+	}
+	.content-item p {
+		max-width: 100%;
+	}
+}
+@media all and (max-width: 575px) {
+	.banner-counter p {
+		font-size: 19px;
+		letter-spacing: 2px;
+	}
+	.about-content p {
+		color: #161616;
+		font-size: 20px;
+		letter-spacing: 1px;
+	}
+	.card h2 button {
+		font-size: 20px;
+		padding-right: 20px;
+	}
+	.card h2 button i {
+		width: 24px;
+		height: 24px;
+		right:10px;
+		font-size:18px;
+	}
+	.card h2 button i::before {
+		left: 1.5px;
+		position: relative;
+		top: 1px;
+	}
+	.card-body p {
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+	.card-header {
+		padding: .75rem 1.25rem .75rem 0;
+	}
+	.card-body p {
+		padding-left: 0;
+	}
+	.question-content h3 {
+		font-size: 30px;
+	}
+	.question-content p {
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+	.parnership-content p {
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+	.heading-bg h2 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.parnership-logo-item {
+		text-align: center;
+	}
+	.parnership-logo-item img {
+		max-width: 90%;
+	}
+	.story-content p {
+		font-size: 20px;
+		letter-spacing: 1px;
+	}
+	.gaming-left-content p {
+		font-size: 20px;
+		letter-spacing: 1px;
+	}
+	.section-heading p {
+		font-size: 21px;
+		letter-spacing: 1px;
+	}
+	.content-item p {
+		letter-spacing: 1px;
+	}
+	.gaming-area::after {
+		width: 110px;
+		height: 145px;
+	}
+	.gaming-main-area::after {
+		height: 271px;
+		top:0;
+	}
+	.roadmap-virtual-image::after {
+		height: 1260px;
+	}
+	.comming-soon-title::before {
+		width: 190px;
+		height: 290px;
+		right: -38px;
+		bottom: -211px;
+	}
+	.comming-soon-title h2 {
+		font-size: 21px;
+		margin-left: 50px;
+	}
+	.welcome-metaverse-content {
+		padding: 20px 40px 40px 40px;
+	}
+	.welcome-metaverse-content-area::after {
+		width: 45px;
+		height: 65px;
+	}
+	.welcome-sub-content p {
+		font-size: 21px;
+	}
+	.footer-top-content h2 {
+		font-size: 38px;
+	}
+	.footer-left-content p {
+		letter-spacing: 1px;
+	}
+	.section-heading h2 {
+		display: block;
+	}
+	.copyright-content p {
+		font-size: 15px;
+		letter-spacing: 1px;
+	}
+}
