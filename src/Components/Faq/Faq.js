@@ -93,7 +93,7 @@ const Faq = () => {
 							  </div>
 							  <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
 								<div class="card-body">
-								  And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+								  <p>And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.</p>
 								</div>
 							  </div>
 							</div>

@@ -87,6 +87,7 @@
 		transition: 0.5s;
 		display: block;
 		overflow-y: scroll;
+		scrollbar-width:none;
 	}
 	.offcanvas {
 		right: 0;
@@ -558,7 +559,7 @@
 	}
 	.welcome-metaverse-content {
 		position: inherit;
-		margin-top: 30px;
+		margin-top: -90px;
 	}
 	.welcome-metaverse-content h2 {
 		font-size: 30px;
@@ -610,6 +611,8 @@
 	.card h2 button {
 		font-size: 20px;
 		padding-right: 20px;
+		letter-spacing: 1px;
+		font-weight: normal;
 	}
 	.card h2 button i {
 		width: 24px;
@@ -649,9 +652,10 @@
 	}
 	.parnership-logo-item {
 		text-align: center;
+		margin:20px 0;
 	}
 	.parnership-logo-item img {
-		max-width: 90%;
+		max-width: 240px;
 	}
 	.story-content p {
 		font-size: 20px;
@@ -690,7 +694,7 @@
 		margin-left: 50px;
 	}
 	.welcome-metaverse-content {
-		padding: 20px 40px 40px 40px;
+		padding: 20px 40px 15px 40px;
 	}
 	.welcome-metaverse-content-area::after {
 		width: 45px;

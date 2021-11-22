@@ -49,31 +49,26 @@ table {
 h1 {
     margin: 0;
     padding: 0;
-    list-style: none; 
-    font-family: 'Japanese 3017';}
+    list-style: none; }
 h3 {
     margin: 0;
     padding: 0;
-    list-style: none; 
-    font-family: 'Japanese 3017';}
+    list-style: none; ;}
 
 h4 {
     margin: 0;
     padding: 0;
-    list-style: none; 
-    font-family: 'Japanese 3017';}
+    list-style: none; }
 
 h5 {
     margin: 0;
     padding: 0;
-    list-style: none; 
-    font-family: 'Japanese 3017';}
+    list-style: none; }
 
 h6 {
     margin: 0;
     padding: 0;
-    list-style: none; 
-    font-family: 'Japanese 3017';}
+    list-style: none; }
 
 p {
     font-family: 'Bebas Neue Pro';
@@ -655,6 +650,7 @@ img{
 }
 .gaming-main-area {
 	position: relative;
+	overflow: hidden;
 }
 .gaming-main-area::after {
 	position: absolute;
@@ -979,6 +975,7 @@ img{
 .collection-commingsoon-area {
 	background: #161616;
 	padding: 51px 0 65px 0;
+	overflow: hidden;
 }
 .comming-soon-title {
 	position: relative;
@@ -1177,6 +1174,12 @@ img{
 .parnership-logo-item img {
 	max-width: 100%;
 }
+.d-content {
+	display: none;
+}
+.d-copyright p{
+	padding-top:0 !important;
+}
 .welcome-area {
 	padding: 90px 0;
 	overflow: hidden;
@@ -1289,35 +1292,6 @@ img{
 }
 .welcome-sub-content p {
 	font-size: 25px;
-}
-.notfound-area {
-	background: #252525;
-	height: 100vh;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-	text-align: center;
-}
-.notfound-area h2 {
-	font-size: 60px;
-	color: #FFF;
-	font-family: 'a Asian Hiro';
-}
-.notfound-area a {
-	font-size: 30px;
-	text-decoration: underline !important;
-	color: #007bff;
-	font-family: 'a Asian Hiro';
 }
 .footer-area {
 	background: #252525;
